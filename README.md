@@ -91,3 +91,6 @@ Completing the project involves several steps:
 For more detail about each of these steps, see the project lesson.
 
 kubectl patch configmap/aws-auth -n kube-system --patch "$(cat /tmp/aws-auth-patch.yml)"
+
+arn:aws:iam::726294363484:role/mystack-CodeBuildServiceRole-1X4RYT15VT4FM
+arn:aws:iam::726294363484:role/mystack-CodeBuildServiceRole-1X4RYT15VT4FM
