@@ -94,3 +94,4 @@ kubectl patch configmap/aws-auth -n kube-system --patch "$(cat /tmp/aws-auth-pat
 
 arn:aws:iam::726294363484:role/mystack-CodeBuildServiceRole-1X4RYT15VT4FM
 arn:aws:iam::726294363484:role/mystack-CodeBuildServiceRole-1X4RYT15VT4FM
+kubectl patch configmap/aws-auth -n kube-system --patch "$(cat /tmp/aws-auth-patch.yml)"
